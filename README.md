@@ -19,26 +19,13 @@ This project implements image segmentation using **Gaussian Mixture Models (GMM)
 
 Install dependencies:
 
-```bash
 pip install numpy opencv-python scikit-learn matplotlib
 
 ## How to Run
 
-Clone the repository and navigate to the project directory:
+Clone the repository, add an image, and run the script:
 
+```bash
 git clone https://github.com/barualee/GMM-EMM-Image-Segmentation.git
 cd GMM-EMM-Image-Segmentation
-
-
-Add the input image to the images/ folder.
-
-Run the application:
-
 python EMM.py
-
-
-When prompted:
-
-Enter the number of segments
-
-Enter the image file name from the ./images folder
